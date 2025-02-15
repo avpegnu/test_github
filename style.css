@@ -1,0 +1,59 @@
+h1,
+p {
+  color: rgb(255, 0, 64);
+  font-style: italic;
+}
+
+a:link {
+  color: rgb(132, 0, 255);
+}
+
+/* a:visited {
+  color: rgb(0, 255, 255);
+} */
+
+a:hover {
+  color: rgb(255, 0, 64);
+}
+
+a:active {
+  color: rgb(0, 255, 128);
+}
+
+.p1 {
+  color: rgb(217, 255, 0);
+  font-style: italic;
+}
+
+.box{
+    width: 100px;
+    height: 100px; 
+    padding: 10px;
+    border: 10px solid black;
+    background-color: rgb(255, 0, 64); 
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlXfCXU6xDBpcgbumJr9TU9wBaFDY1lJyuYw&s);
+}
+
+.box.box1{
+    margin-bottom: 10px;
+}
+
+.box.box2{
+    margin: 0 10px 10px 140px;
+}
+
+.box.box3{
+    margin: 0 10px 10px 280px;
+} 
+
+.fa-brands{
+  color:blue;
+  margin-right: 10px;
+}
+
+body{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlXfCXU6xDBpcgbumJr9TU9wBaFDY1lJyuYw&s);
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  background-position: 100% 0%; ;
+}
