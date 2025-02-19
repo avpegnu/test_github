@@ -1,16 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<!-- reset css -->
- <link rel="stylesheet" href="./assets/css/reset.css">
-<!-- style css -->
- <link rel="stylesheet" href="./assets/css/style.css">
-  <title>TestFigma</title>
-</head>
-<body>
-  <h1>TestFigma</h1>
-</body>
+    <!-- reset css -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- embed fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Sen:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- style css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>TestFigma</title>
+  </head>
+  <body style="height: 1000px">
+    <!-- header -->
+    <header class="header fixed">
+      <div class="main-content">
+        <div class="body">
+          <!-- logo -->
+          <img src="./assets/img/Lesson..svg" alt="Lesson." />
+          <!-- nav -->
+          <nav class="nav">
+            <ul>
+              <li class="active"><a href="#!">Home</a></li>
+              <li><a href="#!">Courses</a></li>
+              <li><a href="#!">Pricing</a></li>
+              <li><a href="#!">Reviews</a></li>
+            </ul>
+          </nav>
+          <!-- btn action -->
+          <div class="action">
+            <a href="#!" class="btn btn-sign-up">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- main -->
+    <main>
+      <div class="hero">
+        <div class="main-content">
+          <div class="body">
+            <!-- left hero -->
+            <div class="media-block">
+              <img
+                src="./assets/img/guy-lesson 1.jpg"
+                alt="Learn without limits and spread knowledge."
+                class="img"
+              />
+              <div class="hero-summary">
+                <!-- item 1 -->
+                <div class="item">
+                  <div style="background: #fff9e8" class="icon">
+                    <img src="./assets/img/Orion_page.svg" alt="Icon 1" />
+                  </div>
+                  <div class="info">
+                    <p class="label">20 Courses</p>
+                    <p class="tittle">UI/UX Design</p>
+                  </div>
+                </div>
+                <!-- item 2 -->
+                <div style="margin-top: 22px" class="item">
+                  <div style="background: #fcefff" class="icon">
+                    <img
+                      src="./assets/img/Orion_code-window.svg"
+                      alt="Icon 2"
+                    />
+                  </div>
+                  <div class="info">
+                    <p class="label">20 Courses</p>
+                    <p class="tittle">Development</p>
+                  </div>
+                </div>
+                <!-- item 3 -->
+                <div style="margin-top: 22px" class="item">
+                  <div style="background: #ebeaff" class="icon">
+                    <img src="./assets/img/Orion_megaphone.svg" alt="Icon 3" />
+                  </div>
+                  <div class="info">
+                    <p class="label">30 Courses</p>
+                    <p class="tittle">Marketing</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- right hero -->
+            <div class="content-block">
+              <h1 class="heading">
+                Learn without limits and spread knowledge.
+              </h1>
+              <p class="desc">
+                Build new skills for that “this is my year” feeling with
+                courses, certificates, and degrees from world-class universities
+                and companies.
+              </p>
+
+              <div class="cta-group">
+                <a href="#!" class="btn hero-cta"> See Courses </a>
+                <button class="watch-video">
+                  <div class="icon">
+                    <img src="./assets/img/Polygon 2.svg" alt="Watch-video" />
+                  </div>
+                  <span>Watch-video</span>
+                </button>
+              </div>
+
+              <p style="margin-top: 48px;" class="desc">Recent engagement</p>
+              <p class="desc stats">
+                <strong>50K</strong> Students
+                <strong style="margin-left: 28px;">70+</strong> Courses
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
