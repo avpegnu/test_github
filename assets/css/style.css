@@ -236,3 +236,128 @@ a {
   line-height: 1.23;
   margin-right: 14px;
 }
+
+/* popular-top */
+.popular-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heading-lv2 {
+  color: #171100;
+  font-family: Sen;
+  font-weight: 700;
+  font-size: 3.8rem;
+  line-height: 48px;
+  letter-spacing: -0.76px;
+}
+
+.popular-top .desc {
+  max-width: 458px;
+  margin-top: 16px;
+  font-size: 1.8rem;
+  line-height: 1.67;
+  color: #5f5b53;
+}
+
+.popular-top .controls-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #ffb900;
+  border: 1px solid #ffb900;
+}
+
+.popular-top .controls-btn:hover {
+  background: #ffb900;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* popular-bottom */
+.popular .course-list {
+  display: flex;
+  /* align-items: center;
+  justify-content: space-between; */
+  margin-top: 55px;
+  gap: 30px;
+}
+
+.popular .course-item {
+  border-radius: 12px;
+  border: 1px solid #e2dfda;
+  background: #fff;
+}
+
+.popular .course-item:hover {
+  background: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+}
+
+.popular .course-item .thumb {
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+  height: 278px;
+  object-fit: cover;
+}
+
+.course-item .info {
+  margin: 16px 22px 22px;
+}
+
+.course-item .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.course-item .head .tittle a {
+  color: #171100;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.67;
+}
+
+.course-item .head .rating {
+  display: flex;
+  color: #fea31b;
+  font-size: 1.6rem;
+  line-height: 1.75;
+}
+
+.course-item .desc {
+  color: #5f5b53;
+  font-size: 1.4rem;
+  line-height: 26px;
+}
+
+.course-item .foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.course-item .price {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.67;
+}
+.course-item .btn {
+  border: none;
+  width: 118px;
+  height: 50px;
+}
+
+.course-item .btn:hover {
+  background: #ffb900;
+  cursor: pointer;
+  opacity: 0.9;
+}
